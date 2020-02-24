@@ -1,0 +1,66 @@
+body{
+    font-family: 'Changa';
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.main_div{
+    width: 350px;
+    margin:100px auto;
+    background-color: #e7a61a;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+    padding: 0px 7px 8px 7px
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #fbb81c;
+}
+h1{
+    margin:0;
+    text-align: center;
+}
+
+li:nth-child(2n){
+    background-color:#f6a600;
+
+}
+.fa-pencil-square-o{
+    cursor: pointer;
+}
+
+
+/* span css*/
+.fa-trash{
+    color: red;
+    margin-right: 10px;
+}
+span{
+    display: inline-block;
+    transition:0.2s linear;
+    opacity: 0;
+    width: 0px;
+    margin-left: 8px;
+    
+}
+span:hover{
+    cursor: pointer;
+}
+li:hover span{
+    opacity: 1;
+    width: 25px;
+    
+}
+/*jquery li css*/
+.edit_li{
+    color:gray;
+    text-decoration: line-through;
+}
+
+
+input{
+    width: 99%;
+}
