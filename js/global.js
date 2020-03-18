@@ -1,4 +1,4 @@
-$("li").on('click',function(){
+$("ul").on('click','li',function(){
     $(this).toggleClass("edit_li");
 });
 
